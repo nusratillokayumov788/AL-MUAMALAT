@@ -1,0 +1,216 @@
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0;
+}
+.site-header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Inter', sans-serif;
+}
+.header-container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header-logo {
+    width: 180px;
+    height: auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: rgba(0, 150, 136, 1);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+.dropdown-btn:hover {
+    color: rgba(0, 150, 136, 1);
+}
+
+.chevron-icon {
+    transition: transform 0.3s ease;
+}
+
+
+.dropdown.open .chevron-icon {
+    transform: rotate(180deg);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 130%;
+    left: 0;
+    background-color: #ffffff;
+    min-width: 180px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.dropdown.open .dropdown-content {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.dropdown-content a {
+    color: #333333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 150, 136, 0.1);
+    color: rgba(0, 150, 136, 1);
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.lang-btn {
+    font-size: 15px;
+}
+
+.flag-icon {
+    font-size: 16px;
+}
+
+
+.divider {
+    width: 1px;
+    height: 25px;
+    background-color: #d1d5db;
+}
+
+
+.signin-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 150, 136, 1);
+    padding: 12px 28px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 150, 136, 0.25);
+}
+
+.signin-btn:hover {
+    background-color: #00796b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 150, 136, 0.35);
+}
+
+.contact-flex{
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-text-div{
+    width: 400px;
+}
+.contact-title{
+    color: black;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+.contact-text{
+    color: gray;
+    font-family: Inter, sans-serif;
+}
+.contact-link{
+    text-decoration: none;
+    color: gray;
+    font-family: Inter, sans-serif;
+
+}
+.contact-inputs-div{
+    width: 570px;
+}
+.input1{
+    padding-right: 200px;
+    padding-bottom: 15px;
+}
+.input2{
+    padding-right: 200px;
+    padding-bottom: 15px;
+}
+.input3{
+    padding-right: 200px;
+    padding-bottom: 15px;
+}
+.input4{
+    padding-right: 200px;
+    padding-bottom: 15px;
+}
+.inputs5{
+    padding-right: 200px;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+
+.Submit-button{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 150, 136, 1);
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}

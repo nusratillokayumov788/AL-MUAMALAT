@@ -1,0 +1,246 @@
+/* inter-100 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/inter-v20-latin-100.woff2') format('woff2');
+}
+/* inter-200 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/inter-v20-latin-200.woff2') format('woff2');
+}
+/* inter-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/inter-v20-latin-300.woff2') format('woff2');
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v20-latin-regular.woff2') format('woff2');
+}
+/* inter-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v20-latin-500.woff2') format('woff2');
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v20-latin-600.woff2') format('woff2');
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v20-latin-700.woff2') format('woff2');
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/inter-v20-latin-800.woff2') format('woff2');
+}
+/* inter-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/inter-v20-latin-900.woff2') format('woff2');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.logo{
+    padding-left: 60px;
+    width: 250px;
+    height: 130px;
+}
+
+.questions{
+    display: flex;
+    padding-top: 40px;
+}
+
+.header-flex{
+    display: flex;
+    gap: 150px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    margin: 20px auto;
+    max-width: 1350px;
+}
+
+.main-png{
+    padding-top: 10px;
+    padding-left: 100px;
+    width: 500px;
+}
+
+.Questions-text{
+    color: gray;
+}
+
+.Questions-title{
+    color: rgba(0, 150, 136, 1);
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+}
+
+.profil{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 50px;
+}
+
+.title{
+    padding-left: 60px;
+    padding-top: 40px; 
+    font-family: Impact;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 86px;
+}
+
+.inputs{
+    padding-left: 70px;
+}
+
+.input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 200px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input:focus {
+    border-color: rgba(0, 150, 136, 1);
+    box-shadow: 0 0 8px rgba(0, 150, 136, 0.3);
+}
+
+.buttons{
+    padding-left: 70px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 150, 136, 1);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #00796b;
+    transform: translateY(-2px);
+}
+
+.button-text{
+    text-decoration: none;
+    color: gray;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.text{
+    padding-left: 70px;
+    padding-top: 20px;
+    color: gray;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+}
+.Sign-in-button{
+    text-decoration: none;
+    color: rgba(0, 150, 136, 1);
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 26px;
+}
+.back{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 150, 136, 1);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+.back:hover {
+    background-color: #00796b;
+    transform: translateY(-2px);
+}

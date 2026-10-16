@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/International.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-container">
+            <img src="../images/Logo.svg" alt="Al Muamalat Logo" class="header-logo">
+            <nav class="nav-menu">
+                <a href="../pages/index.html" class="nav-link active">Home</a>
+                <div class="dropdown" id="programsDropdown">
+                <button class="dropdown-btn" onclick="toggleDropdown('programsDropdown')">Programs 
+                    <svg class="chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../pages/International.html">International educational programs</a>
+                    <a href="../pages/Specialized.html">Specialized courses</a>
+                    <a href="#">Islamic Finance Literacy Course</a>
+                    <a href="#">Certification program</a>
+                </div>
+            </div>
+            <a href="#" class="nav-link">Finance tools</a>
+            <a href="../pages/contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="header-right">
+            <div class="dropdown lang-dropdown" id="langDropdown">
+                <button class="dropdown-btn lang-btn" onclick="toggleDropdown('langDropdown')">ENG 
+                    <svg class="chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">O'zbekcha</a>
+                    <a href="#">Русский</a>
+                    <a href="#">English</a>
+                </div>
+            </div>
+            <a href="../pages/Sign-in.html" class="signin-btn">Sign in</a>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="program-text-div">
+                        <h1 class="program-title">International educational programs</h1>
+                        <p class="program-text">Al Muamalat Education's international study programs offer an in-depth learning experience at leading Islamic financial institutions around the world.</p>
+                    </div>
+                    <div class="program-flex">
+                        <div class="learn-div">
+                            <h2>What you’ll learn </h2>
+                            <h3>Gain a comprehensive understanding of Islamic finance principles and ethics.</h3>
+                            <h3>Build a portfolio with 10+ real-world projects in Islamic financial services.</h3>
+                            <h3>Learn to develop and manage Sharia-compliant financial products.</h3>
+                            <h3>Master key concepts in Islamic banking, investment, and wealth management.</h3>
+                            <h3>Understand the fundamentals of risk management in Islamic finance.</h3>
+                            <h3>Develop skills to work as an Islamic finance consultant.</h3>
+                        </div>
+                        <div class="learn-div">
+                            <h2>Why should you study at "AL-MUAMALAT"?</h2>
+                            <ul>
+                                <li>Lifetime access</li>
+                                <li>Video lessons</li>
+                                <li>Tests</li>
+                                <li>Projects</li>
+                                <li>Downloadable resources</li>
+                                <li>Access via mobile device</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <h1 class="information-title">Brief information about the course</h1>
+                    <br>
+                    <br>
+                    <div class="information-flex">
+                        <div class="Videodarslar-div">
+                            <h2 class="videodarslar-title">Videodarslar</h2>
+                            <p class="videodarslar-text">Lessons are posted on the platform in the form of videos, which can be viewed anytime and anywhere. Video lessons are updated.</p>
+                        </div>
+                        <div class="Tasks-div">
+                            <h2 class="videodarslar-title">Tasks</h2>
+                            <p class="videodarslar-text">Test tasks are given at the end of the module. Only students who successfully pass the test will be able to access the lessons in the next module.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="popular-courses">
+            <div class="container">
+            <h1>Most Popular Course</h1>
+            <p>Expert guidance for managing funds in alignment with Islamic principles, helping you make informed, halal investment decisions.</p>
+            
+            <div class="slider-wrapper">
+                <button class="slider-btn prev-btn" id="prevBtn">&#10094;</button>
+                <div class="shop">
+                </div>
+                <button class="slider-btn next-btn" id="nextBtn">&#10095;</button>
+                </div>
+                    <div class="dots-container" id="dotsContainer"></div>
+                </div>
+            </section>
+            <section style="padding-left: 100px;">
+                <div class="container">
+                    <div class="services-payment-container">
+                        <div class="services-side">
+                            <h2>Our Services</h2>
+                            
+                            <div class="service-item">
+                                <div class="service-title">
+                                    <span class="icon-check">✓</span>
+                                    <h3>Space for creative ideas</h3>
+                                </div>
+                                <p>Cyber Square nourishes young aspiring minds to get a clear vision of their ideas. We guide them in analyzing and building their vision and ideas into reality.</p>
+                            </div>
+                            
+                            <div class="service-item">
+                                <div class="service-title">
+                                    <span class="icon-check">✓</span>
+                                    <h3>Engaging and fun curriculum</h3>
+                                </div>
+                                <p>Our goal is to create an engaging system that provides exciting activities so children can understand the programming concepts thoroughly so that they can perform them on their own. With Cyber Square kids have fun while they learn without frustrations.</p>
+                            </div>
+                            
+                            <div class="service-item">
+                                <div class="service-title">
+                                    <span class="icon-check">✓</span>
+                                    <h3>Professional teaching methods</h3>
+                                </div>
+                                <p>We professionals at Cyber Square, have developed an in-depth understanding in how to teach kids and how to code. Moreover, we believe in exposing kids to real programming languages and professional tools.</p>
+                            </div>
+                        </div>
+                        <div class="payment-side">
+                            <h2>Payment</h2>
+                            
+                            <ul class="payment-list">
+                                <li>Space for creative ideas</li> <br>
+                                <li>Engaging and fun curriculum</li> <br>
+                                <li>Professional teaching methods</li> <br>
+                                <li>Learn from AI & Data Science experts</li> <br>
+                                <li>Courses by IIT, NIT, and IIM alumni</li> <br>
+                                <li>UK certification upon completion</li> <br>
+                                <li>Personalized one-to-one training</li> <br>
+                            </ul>
+                            
+                            <button class="purchase-btn">Purchase Now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+<div class="container">
+        <div class="services-header">
+            <h1 class="services-title">Our services</h1>
+            <p class="services-subtitle">Expert guidance for managing funds in alignment with Islamic principles, helping you make informed, halal investment decisions.</p>
+        </div>
+
+        <div class="services-grid" id="servicesGrid"></div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="pre-footer-div">
+            <div class="pre-footer-text-div">
+                <h1 class="pre-footer-title">Workshops and Spiritual Development</h1>
+                <p class="pre-footer-text">Participate in our weekly workshops focused on Islamic <br> studies and spiritual growth. These sessions are designed <br> to help you strengthen your connection with faith and <br> acquire essential skills for daily life</p>
+            </div>
+            <form class="support">
+                <h1 class="support-title">Free consultation</h1>
+                <p class="support-text">Leave your phone number, and we will reach out to provide you with complete information about our courses. </p>
+                <div class="inputs">
+                    <input class="Name-input" type="text" placeholder="Name"> <br> <br>
+                    <input class="Number-input" type="number" placeholder="Number">
+                </div>
+                <div style="display: flex; width: 371px;">
+                    <input type="checkbox">
+                    <p class="chekbox-text">I agree to the use of my personal information for consultation purposes.</p>
+                </div>
+                <br>
+                <button class="Submit-button" href="#">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer-hero">
+            <img src="../images/Footer-logo.svg" alt="Logo" class="footer-logo"> <br>
+            <ul class="footer-list">
+                <li class="footer-item">Home</li>
+                <li class="footer-item">About</li>
+                <li class="footer-item">Services</li>
+                <li class="footer-item">Contact us</li>
+            </ul>
+            <img src="../images/Social media.svg" alt="social media" class="social-media">
+            <br>
+            <br>
+            <hr style="width: 1180px; color: white;">
+            <br>
+            <br>
+            <p class="end-text">Copyright Satyam Studio</p>
+        </div>
+    </div>
+</footer>
+</main>
+<script src="../scripts/International.js"></script>
+</body>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-container">
+            <img src="../images/Logo.svg" alt="Al Muamalat Logo" class="header-logo">
+            <nav class="nav-menu">
+                <a href="../pages/index.html" class="nav-link active">Home</a>
+                <div class="dropdown" id="programsDropdown">
+                <button class="dropdown-btn" onclick="toggleDropdown('programsDropdown')">Programs 
+                    <svg class="chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../pages/International.html">International educational programs</a>
+                    <a href="#">Specialized courses</a>
+                    <a href="#">Islamic Finance Literacy Course</a>
+                    <a href="#">Certification program</a>
+                </div>
+            </div>
+            <a href="#" class="nav-link">Finance tools</a>
+            <a href="../pages/contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="header-right">
+            <div class="dropdown lang-dropdown" id="langDropdown">
+                <button class="dropdown-btn lang-btn" onclick="toggleDropdown('langDropdown')">ENG 
+                    <svg class="chevron-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">O'zbekcha</a>
+                    <a href="#">Русский</a>
+                    <a href="#">English</a>
+                </div>
+            </div>
+            <a href="../pages/Sign-in.html" class="signin-btn">Sign in</a>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="contact-flex">
+                        <div class="contact-text-div">
+                            <h1 class="contact-title">Let’s Talk</h1>
+                            <p class="contact-text">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help</p>
+                            <br>
+                            <br>
+                            <h1 class="contact-title">Email</h1>
+                            <p class="contact-text">nusratillokayumov788@gamil.com</p>
+                            <br>
+                            <br>
+                            <h1 class="contact-title">Socials</h1>
+                            <a class="contact-link" href="#">Instagram</a> <br> <br>
+                            <a class="contact-link" href="#">Twitter</a> <br> <br>
+                            <a class="contact-link" href="#">Facebook</a>
+                        </div>
+                        <div class="contact-inputs-div">
+                            <p class="contact-text">Name</p>
+                            <input class="input1" type="text">
+                            <p class="contact-text">Email</p>
+                            <input class="input2" type="text">
+                            <p class="contact-text">What service are you interested in</p>
+                            <input class="input3" type="text">
+                            <p class="contact-text">Budget</p>
+                            <input class="input4" type="text">
+                            <p class="contact-text">Message</p>
+                            <input class="inputs5" type="text">
+                            <form class="form">
+                                <button class="Submit-button" href="#">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="../scripts/contact.js"></script>
+    </body>
